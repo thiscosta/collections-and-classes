@@ -5,7 +5,7 @@ public class Dice {
     private int state;
 
 	public void roll() {
-		state =  new Random().nextInt(5) + 1;
+		state =  new Random().nextInt(6) + 1;
 	}
 
 	public int getFaceValue() {
