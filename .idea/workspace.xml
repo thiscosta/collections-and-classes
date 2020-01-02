@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1b7a22-89a4-4f05-b652-a25298cfaab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Craps.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Craps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/CrapsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CrapsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CrapsUnitTests1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CrapsUnitTests1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CrapsUnitTests2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CrapsUnitTests2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CrapsUnitTests3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CrapsUnitTests3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Dice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DiceUnitTests1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DiceUnitTests1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DiceUnitTests2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DiceUnitTests2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNames.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNames.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProcessNamesUnitTests8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProcessNamesUnitTests8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Craps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Craps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CrapsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CrapsTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,29 +32,23 @@
   </component>
   <component name="ProjectId" id="1VilaJfVkTamdRBNahGUgRMSi3X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jars/junit-jupiter-api-5.5.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.ProcessNamesUnitTests1">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.CrapsTest">
+    <configuration name="CrapsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrapsTest" />
       <module name="PoP_Collections_and_Classes" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,13 +91,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrapsTest" />
         <item itemvalue="JUnit.ProcessNamesUnitTests1" />
         <item itemvalue="JUnit.All in PoP_Collections_and_Classes (1)" />
         <item itemvalue="JUnit.All in PoP_Collections_and_Classes" />
         <item itemvalue="JUnit.ProcessNamesUnitTests1.testReadNames" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -141,10 +129,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1856" height="278" key="GridCell.Tab.0.bottom" timestamp="1577974539058">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="278" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1577974539058" />
+    <state width="1856" height="278" key="GridCell.Tab.0.center" timestamp="1577974539058">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="278" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1577974539058" />
+    <state width="1856" height="278" key="GridCell.Tab.0.left" timestamp="1577974539058">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="278" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1577974539058" />
+    <state width="1856" height="278" key="GridCell.Tab.0.right" timestamp="1577974539058">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1856" height="278" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1577974539058" />
   </component>
 </project>

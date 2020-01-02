@@ -18,69 +18,64 @@ public class Craps {
     private static ArrayList<String> POSITIVE_RESPONSES = new ArrayList(Arrays.asList("Y", "y"));
     private static ArrayList<String> NEGATIVE_RESPONSES = new ArrayList(Arrays.asList("N", "n"));
 
-	public void shoot() {
+    public void shoot() {
         diceOne.roll();
         diceTwo.roll();
-	}
+    }
 
-	public Dice getDice1() {
-		return diceOne;
-	}
+    public Dice getDice1() {
+        return diceOne;
+    }
 
-	public Dice getDice2() {
-	    return diceTwo;
-	}
+    public Dice getDice2() {
+        return diceTwo;
+    }
 
-	public int addUpScore() {
-		return diceOne.getFaceValue() + diceTwo.getFaceValue();
-	}
+    public int addUpScore() {
+        return diceOne.getFaceValue() + diceTwo.getFaceValue();
+    }
 
-	public String decideOutcome(int total) {
-		if(winningThrows.contains(total)) {
-		    return WIN;
+    public String decideOutcome(int total) {
+        if (winningThrows.contains(total)) {
+            return WIN;
+        } else if (losingThrows.contains(total)) {
+            return LOSE;
+        } else {
+            return THROW_AGAIN;
         }
-		else if(losingThrows.contains(total)){
-		    return LOSE;
-        }
-		else {
-		    return THROW_AGAIN;
-        }
-	}
+    }
 
-	public void getResults() {
-		System.out.println("Dice 1 is " + diceOne.toString());
-		System.out.println("Dice 2 is " + diceTwo.toString());
-		System.out.println("Total is: " + addUpScore());
-		System.out.println("Result is " + decideOutcome(addUpScore()));
-	}
-	
-	public void playCraps() {
-		loopActivated = true;
-		while(loopActivated) {
-		    shoot();
-		    getResults();
-		    System.out.println("*************************");
-		    if(!decideOutcome(addUpScore()).equals(THROW_AGAIN)) {
-		        askPlayAgain();
+    public String getResults() {
+        return "Dice 1 is \" + diceOne.toString()\n" +
+                "Dice 2 is \" + diceTwo.toString()\n" +
+                "Total is: \" + addUpScore()\n" +
+                "Result is " + decideOutcome(addUpScore());
+    }
+
+    public void playCraps() {
+        loopActivated = true;
+        while (loopActivated) {
+            shoot();
+            System.out.println(getResults());
+            System.out.println("*************************");
+            if (!decideOutcome(addUpScore()).equals(THROW_AGAIN)) {
+                askPlayAgain();
             }
         }
-	}
-	
-	private void askPlayAgain() {
+    }
+
+    private void askPlayAgain() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Do you want to play again?");
         String response = scanner.next();
-        if(POSITIVE_RESPONSES.contains(response)) {
+        if (POSITIVE_RESPONSES.contains(response)) {
             loopActivated = true;
-        }
-        else if(NEGATIVE_RESPONSES.contains(response)) {
+        } else if (NEGATIVE_RESPONSES.contains(response)) {
             loopActivated = false;
-        }
-        else {
+        } else {
             askPlayAgain();
         }
     }
 
-	
-	
+
 }
